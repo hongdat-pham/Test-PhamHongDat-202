@@ -13,6 +13,9 @@ const NAV_ITEMS = [
       </svg>
     ),
   },
+
+
+  
   {
     id: "explore",
     label: "Khám phá",
