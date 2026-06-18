@@ -27,7 +27,7 @@ const NAV_ITEMS = [
     ),
   },
   {
-    id: "profile",
+    id: "Profile",
     label: "Hồ sơ",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
