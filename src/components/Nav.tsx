@@ -14,8 +14,6 @@ const NAV_ITEMS = [
     ),
   },
 
-
-
   {
     id: "Explore",
     label: "Khám phá",
