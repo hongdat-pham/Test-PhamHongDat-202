@@ -58,7 +58,6 @@ export function Sidebar({ activeId }: { activeId: string }) {
     </nav>
   );
 }
-
 export function BottomNav({ activeId }: { activeId: string }) {
   return (
     <nav className="bottom-nav">
