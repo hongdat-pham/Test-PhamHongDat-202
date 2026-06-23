@@ -13,7 +13,6 @@ const NAV_ITEMS = [
       </svg>
     ),
   },
-
   {
     id: "Explore",
     label: "Khám phá",
@@ -24,7 +23,6 @@ const NAV_ITEMS = [
       </svg>
     ),
   },
-  
   {
     id: "Profile",
     label: "Hồ sơ",
@@ -36,7 +34,6 @@ const NAV_ITEMS = [
     ),
   },
 ];
-
 export function Sidebar({ activeId }: { activeId: string }) {
   return (
     <nav className="sidebar">
