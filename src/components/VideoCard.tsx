@@ -209,7 +209,6 @@ export default function VideoCard({ video, hasInteracted }: Props) {
             </div>
             <span className="action-label">{formatCount(video.commentsCount)}</span>
           </button>
-
           <button className="action-btn" aria-label="Share">
             <div className="action-icon-wrap">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
@@ -223,7 +222,6 @@ export default function VideoCard({ video, hasInteracted }: Props) {
             <span className="action-label">{formatCount(video.sharesCount)}</span>
           </button>
         </div>
-
         <div className="progress-bar-wrap">
           <div className="progress-bar-fill" style={{ width: `${progress}%` }} />
         </div>
